@@ -1,6 +1,6 @@
 # temperature_sensors
 
-## Project setup with Docker
+## Project run with Docker
 
 ```
 ./restart
