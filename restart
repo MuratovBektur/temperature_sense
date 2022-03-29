@@ -1,0 +1,10 @@
+# git pull;
+
+# remove container after using;
+docker container rm -f TemperatureSense;
+# build new container for build vue app
+docker build -t temperature_sense .
+# run container
+docker run -it -p 8080:8080 --rm --name TemperatureSense temperature_sense
+
+
